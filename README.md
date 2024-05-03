@@ -1,43 +1,85 @@
-Number Guessing Game
-By Abdul Saboor
-Overview:
-Welcome to the Number Guessing Game! This project is a simple game built using JavaScript (JS) and TypeScript (TS). The game randomly selects a number between 1 and 5, and the player needs to guess the correct number.
+# CLI Number Guessing Game
+CLI Number Guessing Game is a simple command-line game where players need to guess a number between 1 to 5.
 
-Features:
-Colorful Feedback: Receive colorful text messages when guessing the wrong or correct number.
-Interactive Interface: Utilizes the Inquirer library to provide an engaging command-line interface for playing the game.
-Number Range: Guess numbers between 1 and 5 for simplicity and quick gameplay.
-Simple and Fun: Enjoy a straightforward and entertaining game experience suitable for all ages.
-Installation:
-You can directly run the game using npx without needing to clone the repository:
+## Developer
+Abdul Saboor.
 
-typescript
+## Features
+
+Guess a number between 1 to 5.
+
+Receive feedback with styled messages:
+
+Incorrect guesses are displayed in red using Chalk.
+
+Correct guesses are displayed in green using Chalk.
+
+## Technologies Used
+
+JavaScript (JS)
+
+TypeScript (TS)
+
+Inquirer
+
+Chalk
+
+# Installation
+## GitHub
+Clone the repository:
+
 Copy code
+
+git clone https://github.com/AbdulSaboor345/cli-number-guessing-game.git
+
+Navigate to the project directory:
+
+cd [your/folder/directory]
+
+Install dependencies:
+
+Copy code
+
+npm i inquirer
+
+npm i @types/inquirer
+
+Run the application:
+
+Copy code
+
+npm start
+
+## NPX Command
+
+Alternatively, you can run the game using npx without installing it locally:
+
+Copy code
+
 npx abdul-saboor-cli-number-guessing-game
-This command will fetch the latest version of the game from Hamza's GitHub repository and run it on your machine.
 
-Usage:
-Start the game by running the installation command mentioned above.
-Follow the prompts to guess the correct number.
-Receive colorful feedback on whether your guess is correct or not.
-Keep playing until you guess the correct number or decide to exit the game.
+## Contributions
+Contributions are welcome! If you'd like to contribute to CLI Number Guessing Game, please follow these guidelines:
 
-Technologies Used:
-JavaScript (JS): Core programming language for the game logic.
-TypeScript (TS): Provides static typing for increased reliability and maintainability.
-Inquirer: Library for creating interactive command-line interfaces.
+Fork the repository.
 
-Acknowledgements:
-Special thanks to Code with Hamza for his assistance and contribution to this project.
+Create a new branch.
 
-Contribution:
-Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
+Make your changes.
 
-License:
-This game is licensed under the MIT License. Feel free to play, modify, and distribute the game as per the terms of the license.
+Test your changes.
 
-Contact:
-For any inquiries or support, feel free to contact Abdul Saboor at a.saboor.no.1@gmail.com .
+Submit a pull request.
+
+## Acknowledgments
+Special thanks to Code with Hamza for their contributions to this project.
+
+## License
+CLI Number Guessing Game is licensed under the ISC License. For more information, see the License.txt file.
+
+## Contact
+For any inquiries or feedback, please contact us at a.saboor.no.1@gmail.com
+
 
 
 
